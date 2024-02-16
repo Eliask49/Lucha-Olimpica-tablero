@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('file:///C:/Users/Elias/Desktop/marcadorlucha/uww.jpg'); /* Reemplaza con la ruta completa de tu imagen */
+   background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centro horizontalmente */
+    align-items: center; /* Centro verticalmente */
+    height: 100vh;
+}
+
+.marcador {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.luchador {
+    text-align: center;
+    margin: 0 20px; /* Espacio entre las celdas de luchadores y puntajes */
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%; /* Para que el input ocupe el ancho completo de la celda */
+}
+
+/* Estilos para el luchador rojo */
+#nombreLuchadorRojoTitulo {
+    color: #fff;
+    background-color: #dc3545; /* Rojo */
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre el nombre y el puntaje */
+}
+
+#puntuacionLuchadorRojo {
+    color: #dc3545; /* Rojo */
+    font-size: 72px; /* Tamaño del puntaje */
+}
+
+/* Estilos para el luchador azul */
+#nombreLuchadorAzulTitulo {
+    color: #fff;
+    background-color: #007BFF; /* Azul */
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre el nombre y el puntaje */
+}
+
+#puntuacionLuchadorAzul {
+    color: #007BFF; /* Azul */
+    font-size: 72px; /* Tamaño del puntaje */
+}
+
+.versus {
+    font-size: 36px;
+    color: #fff; /* Blanco */
+    margin: 0 20px;
+}
+
+.tiempo {
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+#tiempo {
+    font-size: 96px; /* Tamaño del tiempo ajustado según preferencias */
+    font-weight: bold;
+    margin: 10px 0;
+    color: #001f3f; /* Azul oscuro */
+}
+
+
+button {
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}

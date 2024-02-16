@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador UWW</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="marcador">
+        <div class="luchador">
+            <input type="text" id="nombreLuchadorRojo" placeholder="Nombre del Luchador Rojo">
+            <h2 id="nombreLuchadorRojoTitulo"></h2>
+            <p id="puntuacionLuchadorRojo">0</p>
+            <button onclick="agregarPuntaje('puntuacionLuchadorRojo')">+1</button>
+        </div>
+        <div class="versus">VS</div>
+        <div class="luchador">
+            <input type="text" id="nombreLuchadorAzul" placeholder="Nombre del Luchador Azul">
+            <h2 id="nombreLuchadorAzulTitulo"></h2>
+            <p id="puntuacionLuchadorAzul">0</p>
+            <button onclick="agregarPuntaje('puntuacionLuchadorAzul')">+1</button>
+        </div>
+    </div>
+    <div class="tiempo">
+        <h3>Tiempo Restante</h3>
+        <p id="tiempo">03:00</p>
+        <button onclick="iniciarTiempo()">Iniciar</button>
+        <button onclick="pausarTiempo()">Pausar</button>
+        <button onclick="reiniciarTiempo()">Reiniciar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
